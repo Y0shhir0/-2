@@ -1,0 +1,17 @@
+﻿<Window x:Class="zadanie3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="350" Background="Aqua">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Введите номер дня года (1-365):"/>
+            <TextBox x:Name="Year" Width="100"/>
+            <Button x:Name="calculateButton" Content="Рассчитать" Background="Red" Click="Button_Click" Margin="0,10,0,0"/>
+            <Label x:Name="resultLabel" Content=""/>
+        </StackPanel>
+    </Grid>
+</Window>
