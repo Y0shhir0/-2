@@ -11,7 +11,7 @@
             <Label Content="Введите номер дня года (1-365):"/>
             <TextBox x:Name="Year" Width="100"/>
             <Button x:Name="calculateButton" Content="Рассчитать" Background="Red" Click="Button_Click" Margin="0,10,0,0"/>
-            <Label x:Name="resultLabel" Content=""/>
+            <Label x:Name="resultLabel" Content=""/>  
         </StackPanel>
     </Grid>
 </Window>
